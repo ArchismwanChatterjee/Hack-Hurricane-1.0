@@ -7,7 +7,7 @@
 ![License](https://badgen.net/github/license/micromatch/micromatch)
 
 SoundSight Companion aims to revolutionize the way visually impaired individuals perceive their surroundings. By leveraging advanced object detection algorithms and contextual image analysis, we enable users to explore the world by allowing them to upload images and receive detailed audio descriptions of objects detected, along with contextual information about the environment captured in the image.
-Click [here](https://soundsight-companion.streamlit.app/) to try out
+Click [here](https://sound-sight-companion.streamlit.app/) to try out
 
 This project is made under Hack-Hurricane 1.0 hackathon
 
@@ -34,7 +34,14 @@ pip install Pillow
 pip install python-dotenv # for environment variable
 pip install gtts
 pip install ipython
+pip install deep-translator
 ```
+or simply
+
+```python
+pip install -r requirements.txt
+```
+
 - Make sure to create your own generative-ai api-key using Google Cloud Console or Google Makersuite and replace it.
 
 ```python
@@ -56,4 +63,4 @@ streamlit run "your_file_name"
 
 The website is deployed using streamlit community cloud ⬇️
 
-[Link](https://soundsight-companion.streamlit.app/) 
+[Link](https://sound-sight-companion.streamlit.app/) 
