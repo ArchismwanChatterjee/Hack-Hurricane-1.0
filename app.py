@@ -61,7 +61,7 @@ def main():
                 st.session_state.objects_detected_text = response.text
 
                 st.write("The objects detected are \n")
-                st.write_stream(st.session_state.objects_detected_text)
+                st.write(st.session_state.objects_detected_text)
 
                 tts = gTTS(text=st.session_state.objects_detected_text, lang='en')
                 tts.save("output.mp3")
