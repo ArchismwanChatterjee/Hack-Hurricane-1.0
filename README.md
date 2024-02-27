@@ -6,7 +6,7 @@
 
 ![License](https://badgen.net/github/license/micromatch/micromatch)
 
-SoundSight Companion aims to revolutionize the way visually impaired individuals perceive their surroundings. By leveraging advanced object detection algorithms and contextual image analysis, we enable users to explore the world by allowing them to upload images and receive detailed audio descriptions of objects detected, along with contextual information about the environment captured in the image.
+SoundSight Companion aims to revolutionize the way visually impaired individuals perceive their surroundings. By leveraging advanced object detection algorithms and contextual image analysis, we enable users to explore the world by allowing them to upload images and receive detailed audio descriptions of objects detected, along with contextual information about the environment captured in the image.The users will also be able to translate the output to other languages. Currently it supports most of the Indian Languages such as Hindi, Bengali, Tamil, Telegu, Kannada, Marathi, Malayalam, Gujrati, Urdu. 
 Click [here](https://sound-sight-companion.streamlit.app/) to try out
 
 This project is made under Hack-Hurricane 1.0 hackathon
@@ -17,7 +17,7 @@ This project is made under Hack-Hurricane 1.0 hackathon
 3. Wait for the image to be uploaded, the dimesions of the image will be updated
 4. Click on the button to detect the objects present
 5. Wait for few seconds and See the ✨Magic ✨ Happen.
-6. The users will be able to control the playback speed and download the audio output file.
+6. The users will be able to translate the output as well as control the playback speed and download the audio output file.
 
 ## Installation:
 
