@@ -3,3 +3,4 @@ pillow
 ipython
 gtts
 google.generativeai
+deep-translator
